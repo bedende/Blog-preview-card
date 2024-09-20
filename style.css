@@ -1,0 +1,43 @@
+:root {
+    --primary: rgb(249, 204, 56);
+}
+
+body  {
+    background-color: var(--primary);
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px
+}
+
+main, footer {
+    margin-left: 10px;
+}
+
+h4 {
+    display: inline;
+    background-color: var(--primary);
+    padding: 5px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#description {
+    color: rgb(171, 162, 162)
+}
+
+#author {
+    font-weight: bold;
+}
